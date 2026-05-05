@@ -21,7 +21,7 @@ function App() {
   return(
     <div className="app">
      <Navbar />
-            {data.map((post) => {
+            {data.map((post) => (
                 <h2 className="card-title">{post.title}</h2>
                 <p className="card-body">{post.body}</p>
                 </div>
