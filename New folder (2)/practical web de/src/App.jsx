@@ -22,6 +22,7 @@ function App() {
     <div className="app">
      <Navbar />
             {data.map((post) => (
+                <div key={post.id} className="card">
                 <h2 className="card-title">{post.title}</h2>
                 <p className="card-body">{post.body}</p>
                 </div>
